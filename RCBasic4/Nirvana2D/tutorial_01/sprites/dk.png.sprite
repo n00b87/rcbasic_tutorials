@@ -1,0 +1,6 @@
+SPRITE name="dk" frame_size=32,64;
+SHAPE type=SPRITE_SHAPE_BOX point=10,19 size=14,45 ;
+ANIMATION name="SPRITE_BASE_ANIMATION" frame_count=1 fps=0 frame=0 ;
+ANIMATION name="idle_right" frame_count=1 fps=0 frame=0 ;
+ANIMATION name="run_right" frame_count=4 fps=8 frame=1,2,3,2 ;
+ANIMATION name="jump_right" frame_count=1 fps=0 frame=0 ;
