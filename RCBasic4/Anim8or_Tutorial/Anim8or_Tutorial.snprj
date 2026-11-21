@@ -1,0 +1,10 @@
+Serenity version=1.0;
+Project name="Anim8or_Tutorial";
+Grid color=4282795590 visible=true size=5000 spacing=100;
+TerrainBrush shape="DOME" size=40 step=10;
+Tool show_lines=true show_rings=true;
+Camera show_position=true show_rotation=true speed=5;
+OrthoView near=1 far=5000 width=2000 height=1200;
+PerspectiveView near=1 far=5000 fov=1.25664 aspect=1.33333;
+HUD color=4294967295;
+Stage id=stage1 file="stage1.snst";

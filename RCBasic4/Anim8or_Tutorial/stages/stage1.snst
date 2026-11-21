@@ -1,0 +1,22 @@
+Stage id=stage1;
+
+---------------[Resources]----------------;
+
+Image id=spock_texture_png file="spock_texture.png" ;
+
+
+Material id=spock_material file="spock_material.snmtl";
+
+
+
+
+Mesh id=spock_ms3d file="spock.ms3d" collision_mesh=NONE material=spock_material;
+
+
+
+---------------[Scene]----------------;
+
+Sky type=NONE dome=[NULL] lf=[NULL] rt=[NULL] up=[NULL] dn=[NULL] ft=[NULL] bk=[NULL] h=0 v=0 tx_pct=0 sp_pct=0 radius=0;
+
+
+Actor type=ANIMATED id=spock  mesh=spock_ms3d animation=IDLE loops=-1 material=[NULL] pos_x=2.61468 pos_y=30 pos_z=-10.1142 rot_x=0 rot_y=0 rot_z=0 scale_x=1 scale_y=1 scale_z=1 visible=true store_visible=true shadow=false auto_culling=AUTOCULLING_BOX physics_shape=BOX physics_solid=false physics_mass=0 cube_size=1 radius=1 use_attenuation=false cast_shadow=true light_type=POINT falloff=0 ambient=1065353216 diffuse=1065353216 specular=1065353216 inner_cone=0 outer_cone=0 constant=0 linear=0 quadratic=0 particle_type=POINT dir_x=0 dir_y=0 dir_z=0 use_every_vertex=false normal_dir_mod=100 use_normal_dir=false min_per_sec=0 max_per_sec=0 min_start_color=0 max_start_color=0 min_life=0 max_life=0 max_angle=0 min_start_width=0 min_start_height=0 max_start_width=0 max_start_height=0 center_x=0 center_y=0 center_z=0 ring_thickness=0 box_min_x=0 box_min_y=0 box_min_z=0 box_max_x=0 box_max_y=0 box_max_z=0 normal_x=0 normal_y=0 normal_z=0 length=0 use_outline_only=false terrain_hmap_file= terrain_size=1374709552 patch_size=1 wave_height=0 wave_speed=0 wave_length=0;
